@@ -16,7 +16,7 @@ import java.util.*;
 public class GameRecordsHolderImpl implements GameRecordsHolder {
     private static final String STRING_SEPARATOR_FOR_DIFFERENT_GAME_TYPES = "`Э`";
     private static final String SEPARATOR_FOR_RECORD_FIELDS = "`Ъ`";
-    private static final String FILE_PATH = "task_3/records";
+    private static final String FILE_PATH = "records";
 
     private final Map<Integer, Record> currentGameRecords = new HashMap<>();
 
